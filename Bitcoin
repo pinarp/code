@@ -1,0 +1,4 @@
+BITCOIN FULL NODE CODES
+curl https://bitnodes.io/install-full-node.sh | sh
+tail -f /root/bitcoin-core/.bitcoin/debug.log
+cd /root/bitcoin-core/bin && ./stop.sh
